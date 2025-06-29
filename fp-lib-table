@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "ewod_footprints")(type "KiCad")(uri "${KIPRJMOD}/ewod_footprints.pretty")(options "")(descr ""))
+)
