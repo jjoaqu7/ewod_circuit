@@ -2017,241 +2017,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SamacSys_Parts:EEU-FR1A221"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 8.89 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "EEU-FR1A221"
-				(at 8.89 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "CAPPRD250W55D630H1270"
-				(at 8.89 -96.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1259.pdf"
-				(at 8.89 -196.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Cap Aluminum Lytic 220uF 10V 20% (6.3 X 11.2mm) Radial 2.5mm 455mA 5000h 105C Bulk"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "12.7"
-				(at 8.89 -396.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Panasonic"
-				(at 8.89 -496.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "EEU-FR1A221"
-				(at 8.89 -596.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "667-EEU-FR1A221"
-				(at 8.89 -696.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/EEU-FR1A221?qs=ob%252BdNz2%252BYEhkWgEESuSfIA%3D%3D"
-				(at 8.89 -796.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Part Number" "EEU-FR1A221"
-				(at 8.89 -896.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/eeu-fr1a221/panasonic"
-				(at 8.89 -996.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "EEU-FR1A221_1_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.064 1.778) (xy 4.064 0.762)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.572 1.27) (xy 3.556 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 5.08 2.54)
-					(end 5.842 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 2.54) (xy 7.62 -2.54) (xy 6.858 -2.54) (xy 6.858 2.54) (xy 7.62 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 10.16 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 0 180)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "SamacSys_Parts:SMBJ200CA"
 			(pin_names
 				(hide yes)
@@ -3932,16 +3697,6 @@
 		(uuid "77e4b65c-4a58-41dd-8dbf-df018a8833cf")
 	)
 	(label "+5V"
-		(at 123.19 91.44 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "80fbaf26-8ff5-4ce4-8808-595b526ac138")
-	)
-	(label "+5V"
 		(at 180.34 62.23 0)
 		(effects
 			(font
@@ -3950,16 +3705,6 @@
 			(justify left bottom)
 		)
 		(uuid "8e10b8cc-10ee-4358-9289-a6fbd083e01c")
-	)
-	(label "GND"
-		(at 158.75 64.77 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8ecf9f3c-e906-4f79-bb2d-fe0fdba7651d")
 	)
 	(label "+5V"
 		(at 167.64 104.14 0)
@@ -4001,36 +3746,6 @@
 		)
 		(uuid "9f799188-0245-4b39-8ab5-20b7dba49b71")
 	)
-	(label "GND"
-		(at 134.62 87.63 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9fa0eaf0-bfa3-446d-bfed-8ab0863f21f1")
-	)
-	(label "GND"
-		(at 123.19 99.06 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9fed991c-f043-4015-8451-cc1ab367b130")
-	)
-	(label "+5V"
-		(at 146.05 64.77 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a4451d65-d93c-478f-8cac-da5dd0a2c15b")
-	)
 	(label "AMP_OUT"
 		(at 74.93 63.5 180)
 		(effects
@@ -4050,16 +3765,6 @@
 			(justify left bottom)
 		)
 		(uuid "ad8780c3-c54f-4fc2-97ef-75bfa67ee9a5")
-	)
-	(label "GND"
-		(at 160.02 81.28 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "af4a157b-22fe-4a4a-b144-6dfa4a302b6d")
 	)
 	(label "BUS6_HV"
 		(at 69.85 160.02 0)
@@ -4141,16 +3846,6 @@
 		)
 		(uuid "c39f5cee-ba0d-4aee-af56-c5db943707cb")
 	)
-	(label "+5V"
-		(at 160.02 73.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c3a22530-cb43-4737-88b4-a2d07037a745")
-	)
 	(label "AMP_GND"
 		(at 107.95 181.61 180)
 		(effects
@@ -4160,16 +3855,6 @@
 			(justify right bottom)
 		)
 		(uuid "c405466c-959e-4cb7-8ea4-ce58188b031e")
-	)
-	(label "+5V"
-		(at 134.62 80.01 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c635a864-7d3f-426e-9513-c05e009d0428")
 	)
 	(label "AMP_OUT"
 		(at 44.45 175.26 0)
@@ -4260,76 +3945,6 @@
 			(justify left bottom)
 		)
 		(uuid "fffa52ba-dedb-475a-a715-cc752fd3a8e1")
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 134.62 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "03abe9fa-4f95-421b-919c-e20c9bad5ef7")
-		(property "Reference" "C4"
-			(at 138.43 82.5499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1 uF"
-			(at 138.43 85.0899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 135.5852 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 134.62 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 134.62 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "80118227-7a3b-4135-af8c-868928fde6ad")
-		)
-		(pin "1"
-			(uuid "b97dbf49-80db-42db-9196-60101a7a0eae")
-		)
-		(instances
-			(project "ewod_10bus"
-				(path "/c3a40bf3-4403-4490-a55d-d816fe2f09e4"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:B2P-VH")
@@ -5262,146 +4877,6 @@
 			(project ""
 				(path "/c3a40bf3-4403-4490-a55d-d816fe2f09e4"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys_Parts:EEU-FR1A221")
-		(at 146.05 64.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1dec3886-9943-475a-9404-d2dd9c1064f6")
-		(property "Reference" "C2"
-			(at 152.4 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "EEU-FR1A221"
-			(at 152.4 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
-			(at 154.94 160.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1259.pdf"
-			(at 154.94 260.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Cap Aluminum Lytic 220uF 10V 20% (6.3 X 11.2mm) Radial 2.5mm 455mA 5000h 105C Bulk"
-			(at 146.05 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "12.7"
-			(at 154.94 460.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Panasonic"
-			(at 154.94 560.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "EEU-FR1A221"
-			(at 154.94 660.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "667-EEU-FR1A221"
-			(at 154.94 760.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/EEU-FR1A221?qs=ob%252BdNz2%252BYEhkWgEESuSfIA%3D%3D"
-			(at 154.94 860.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "EEU-FR1A221"
-			(at 154.94 960.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/eeu-fr1a221/panasonic"
-			(at 154.94 1060.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d998f679-1729-4636-a2e7-a7097502a575")
-		)
-		(pin "1"
-			(uuid "439997b1-beac-440a-8fdf-2ddac462e70e")
-		)
-		(instances
-			(project ""
-				(path "/c3a40bf3-4403-4490-a55d-d816fe2f09e4"
-					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -7409,76 +6884,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 160.02 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "862493a8-3401-466c-a054-d9856e2f95b0")
-		(property "Reference" "C1"
-			(at 163.83 76.1999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10 uF"
-			(at 163.83 78.7399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 160.9852 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 160.02 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 160.02 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f8e6b16e-1b06-405d-b8a7-933c90c6fdbf")
-		)
-		(pin "1"
-			(uuid "ee1719d6-c702-4585-86ac-94a7a396a468")
-		)
-		(instances
-			(project ""
-				(path "/c3a40bf3-4403-4490-a55d-d816fe2f09e4"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 64.77 138.43 270)
 		(unit 1)
@@ -8297,75 +7702,6 @@
 			(project "ewod_10bus"
 				(path "/c3a40bf3-4403-4490-a55d-d816fe2f09e4"
 					(reference "TP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 123.19 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b429892c-1913-499a-9c64-578aba7382f7")
-		(property "Reference" "C6"
-			(at 127 93.9799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 127 96.5199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 124.1552 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 123.19 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 123.19 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "21eb672c-8644-4797-86f8-6f021339bbc7")
-		)
-		(pin "2"
-			(uuid "9c570d71-0cc9-43ea-bd03-765bb925770d")
-		)
-		(instances
-			(project "ewod_10bus"
-				(path "/c3a40bf3-4403-4490-a55d-d816fe2f09e4"
-					(reference "C6")
 					(unit 1)
 				)
 			)
